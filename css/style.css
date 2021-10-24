@@ -1,0 +1,148 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;1,600&display=swap');
+
+*{  padding: 0;
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+*/
+
+body {
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+}
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/*_________________________Media queries pantalla ancha_______________________*/
+
+/*_________________________Media queries pantalla sm_______________________*/
+
+@media (max-whidth: 768px) {
+  #intro {
+    width: 90% !important;
+  }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+/*_________________________Media queries pantalla extra-sm_______________________*/
+@media (max-whidth: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+
+/*
+
+.img-banner {
+    background-image: url("../images/img-banner.jpg");
+    background-color: white;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+.text-banner {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+  */
+
+.whatsapp {
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  margin-left: 1rem;
+  position: fixed;
+  margin: 2rem;
+}
+
+.servicios {
+  background-color: white;
+  color: black;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.imageADN {
+  height: 500px;
+  width: 800px;
+}
+.body {
+  background-color: white;
+}
+
+ul {
+  width: 800px;
+  padding: 15px;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  background-color: rgb(224, 245, 253);
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+li {
+  float: center;
+}
+li a {
+  color: black;
+}
+
+.navBar {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(224, 245, 253);
+}
+
+form button {
+  align-items: center;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+.div2 {
+  width: 225px;
+  padding: 2px;
+  border: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+}

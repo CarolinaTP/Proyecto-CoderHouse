@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-------------------------------->
+    <!-- Required meta tags -->
+    <!-------------------------------->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-------------------------------->
+    <!-- Bootstrap CSS -->
+    <!-------------------------------->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Laboratorio Cobiartsi</title>
+  </head>
+
+<body class="body"> 
+  <!-------------------------------->
+  <!--Encabezado-->
+  <!-------------------------------->
+
+  <header class="container-fluid bg-primary d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-6">Contactanos + 01 234 567 88</p>
+  </header>
+<!-------------------------------->
+<!--Barra de navegacion-->
+<!-------------------------------->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><span class="text-primary fs-5 fw-bold">Laboratorio Cobiatsi</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./html/informes.html">Informes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./html/servicios.html">Biotecnologias</a></li>
+            <li><a class="dropdown-item" href="./html/servicios.html">Deteccion de Drogas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./html/contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./html/quienesSomos.html">Sobre Nosotros</a>
+        </li>
+      </ul>
+      
+          <form class="d-flex" style="margin: 0 auto; display: block;">
+            <input class="form-control me-2" type="buscar" placeholder="¿Qué buscas?" aria-label="palabra">
+            <button class="btn btn-primary btn-primary-outline-success" type="submit">Buscar</button>
+          </form>
+      
+<!------------------------------->
+    <!--Boton comencemos!-->    
+      <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Comencemos!</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Inicia sesion o Registrate</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Correo Electónico:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-password" class="col-form-label">Contraseña:</label>
+                  <input type="text-number" class="form-control" id="recipient-password"></input>
+                 <a href="#" class="text-danger">Haz cliack aquí y Regístrate!</a>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Entrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+<!--Carrusel biotecnologías-->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<section class="w-50 mx-auto text-center pt-5 id=intro">
+  <h1 class="p-3 fs-2 border-top border-3 text-primary">SERVICIOS:</h1>
+  <h1 class="p-3 fs-6 border-top border-3 text-primary">Tipos de Biotecnologías:</h1>
+</section>
+
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia naranja.jpg" class="d-block w-100" alt="biotecnologia_naranja">
+          <div class="bg-secondary py-4 text-white text-center">Naranja</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_amarilla.jpg" class="d-block w-100" alt="biotecnologia_amarilla">
+          <div class="bg-secondary py-4 text-white text-center">Amarilla</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_azul.jpg" class="d-block w-100" alt="biotecnologia_azul">
+          <div class="bg-secondary py-4 text-white text-center">Azul</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_blanca.jpg" class="d-block w-100" alt="biotecnologia_blanca">
+          <div class="bg-secondary py-4 text-white text-center">Blanca</div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_gris.jpg" class="d-block w-100" alt="biotecnologia_gris">
+          <div class="bg-secondary py-4 text-white text-center">Gris</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_marron.jpg" class="d-block w-100" alt="biotecnologia_marron">
+          <div class="bg-secondary py-4 text-white text-center">Marrón</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnología_negra.jpg" class="d-block w-100" style="height: auto;" alt="biotecnologia_negra">
+          <div class="bg-secondary py-4 text-white text-center">Negra</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_purpura.jpg" class="d-block w-100" alt="biotecnologia_purpura">
+          <div class="bg-secondary py-4 text-white text-center">Púrpura</div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_verde.jpg" class="d-block w-100" alt="biotecnologia_verde">
+          <div class="bg-secondary py-4 text-white text-center">Verde</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_dorada.jpg" class="d-block w-100" alt="biotecnologia_dorada">
+          <div class="bg-secondary py-4 text-white text-center">Dorada</div>
+        </div>
+        <div class="col">
+          <img src="./images/Colores de biotecnologìa/biotecnologia_roja.jpg" class="d-block w-100" alt="biotecnologia_roja">
+          <div class="bg-secondary py-4 text-white text-center">Roja</div>
+        </div>
+        <div class="col">
+          <img src="" class="d-block w-100" alt="">
+          <div class=" py-4 text-white text-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--Carrusel Deteccion de Drogas-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<section class="w-50 mx-auto text-center pt-5 id=intro">
+  <h1 class="p-3 fs-6 border-top border-3 text-primary">Detecciones de Drogas:</h1>
+</section>
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_alcohol.webp" class="d-block w-100" alt="deteccion_alcohol">
+          <div class="bg-secondary py-4 text-white text-center">Alcohol</div>
+        </div>
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_anfetaminas.jpg" class="d-block w-100" alt="deteccion_anfetaminas">
+          <div class="bg-secondary py-4 text-white text-center">Anfetaminas</div>
+        </div>
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_cannabis.jpg" class="d-block w-100" alt="deteccion_cannabis">
+          <div class="bg-secondary py-4 text-white text-center">Cannabis</div>
+        </div>
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_cocaina.jpg" class="d-block w-100" alt="deteccion_cocaina">
+          <div class="bg-secondary py-4 text-white text-center">Cocaína</div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_disolventes.jpg" class="d-block w-100" alt="deteccion_disolventes">
+          <div class="bg-secondary py-4 text-white text-center">Disolventes</div>
+        </div>
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_extasis.jpg" class="d-block w-100" alt="deteccion_extasis">
+          <div class="bg-secondary py-4 text-white text-center">Éxtasis</div>
+        </div>
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_heroina.jpg" class="d-block w-100" style="height: auto;" alt="deteccion_heroina">
+          <div class="bg-secondary py-4 text-white text-center">Heroína</div>
+        </div>
+        <div class="col">
+          <img src="./images/Deteccion de drogas/deteccion_lsd.jpg" class="d-block w-100" alt="deteccion_lsd">
+          <div class="bg-secondary py-4 text-white text-center">LSD</div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <section class="w-50 mx-auto text-center pt-5 id=intro">
+    <p class="p-3 fs-4"><span> Más información en Servicios..</p></span>
+    <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary" onclick="window.location.href='./html/servicios.html'">Servicios</button>
+  </section>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--Intro-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<section class="w-50 mx-auto text-center pt-5 id=intro">
+      <h1 class="p-3 fs-2 border-top border-3 text-primary">Laboratorio Cobiatsi</h1>
+      <p class="p-3 fs-4"><span> Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.</p></span>
+      <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary" onclick="window.location.href='#'">Solicitar Presupuesto</button>
+</section>
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!--Clientes-->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <section class="container-fluid">
+      <h1 class="p-3 fs-2 border-top border-3 text-primary w-50 mx-auto text-center pt-5 id=intro">CLIENTES:</h1>
+
+    <div class="row w-75 mx-auto my-5 servicio-fila">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+        <img src="./images/Clientes/logo-fertilab.jpg" alt="laboratorioFertilab" width="180" height="160">
+      <div>
+        <a href="https://fertilab.com.uy/" class="fs-5 mt-4 px-4 pb-1">Laboratorio Fertilab</a>
+        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+
+      </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+        <img src="./images/Clientes/clinica-repromedic-lima.jpg" alt="laboratorioFertilab" width="180" height="160">
+      <div>
+        <a href="https://www.laboratoriorepromedic.com/" class="fs-5 mt-4 px-4 pb-1">Clínica Repromedic</a>
+        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+      </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+        <img src="./images/Clientes/CLINICA-DENTAL-ORELLANA.jpg" alt="laboratorioFertilab" width="180" height="160">
+      <div>
+        <a href="https://www.retabloweb.com/?attachment_id=2697" class="fs-5 mt-4 px-4 pb-1">Clinica Dental Orellana</a>
+        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+      </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+        <img src="./images/Clientes/dental-clinics-miami.png" alt="laboratorioFertilab" width="180" height="160">
+      <div>
+        <a href="https://www.rcdentalclinics.com/que-son-las-protesis-dentales/" class="fs-5 mt-4 px-4 pb-1">Dental Clinic</a>
+        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Footer-->
+<footer class="text-center text-lg-start bg-light text-muted">
+    
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+   
+    <div class="me-5 d-none d-lg-block">
+      <span>Contáctenos:</span>
+    </div>
+    
+  </section>
+  
+
+  
+  <section>
+    <div class="container text-center text-md-start mt-5">
+      
+      <div class="row mt-3">
+        
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-vial"></i></i>Laboratorio Cobiatsi
+          </h6>
+          <p>
+            Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.
+          </p>
+        </div>
+
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            Servicios
+          </h6>
+          <p>
+            <a href="file:///C:/Users/manuu/Desktop/Proyecto%20_CoderHouse/html/servicios.html" class="text-reset">Biotecnologías</a>
+          </p>
+        </div>
+        
+
+        
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            Redes Sociales:
+          </h6>
+          <p>
+            <a href="#" class="text-reset">Twitter</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">Facebook</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">Instagram</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">Linkedin</a>
+          </p>
+        </div>
+        
+
+        
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            Encuéntranos en:
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Montevideo, Uruguay</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@cobiatsi.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> +55 66 77 88 99</p>
+        </div>
+       
+      </div>
+     
+    </div>
+  </section>
+ 
+
+  
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021
+    <a class="text-reset fw-bold" href="#">LaboratorioCobiatsi.com</a>
+  </div>
+
+</footer>
+
+<a href="#!"><i class="fab fa-whatsapp whatsapp fa-5x"></i></a>
+  
+
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+</body>
+</html>
