@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title>Cambiar la fuente de la letra al HTML con CSS</title>
+    <style>
+      .texto {
+        font-family: Verdana;
+      }
+    </style>
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <!-- Required meta tags -->
 <!---------------------------------------------------------------------------------------------------------------------------------->
@@ -12,7 +18,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Laboratorio Cobiartsi</title>
+    <title class="texto">Laboratorio Cobiartsi</title>
   </head>
 
 <body class="body"> 
@@ -36,40 +42,40 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+          <a class="nav-link active texto" aria-current="page" href="/index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./html/informes.html">Informes</a>
+          <a class="nav-link texto" href="./html/informes.html">Informes</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown texto">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Servicios
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="./html/servicios.html">Detección de Drogas</a></li>
-            <li><a class="dropdown-item" href="./html/servicios.html">Agroquímicos</a></li>
-            <li><a class="dropdown-item" href="./html/servicios.html">Farma</a></li>
-            <li><a class="dropdown-item" href="./html/servicios.html">Salud Ocupacional</a></li>
-            <li><a class="dropdown-item" href="./html/servicios.html">SST</a></li>
-            <li><a class="dropdown-item" href="./html/servicios.html">Covid-19</a></li>
-            <li><a class="dropdown-item" href="./html/servicios.html">Bioquímica de Metabolopatias</a></li>
-            <li><a class="dropdown-item" href="./html/servicios.html">Bioquímica General</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">Detección de Drogas</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">Agroquímicos</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">Farma</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">Salud Ocupacional</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">SST</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">Covid-19</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">Bioquímica de Metabolopatias</a></li>
+            <li><a class="dropdown-item texto" href="./html/servicios.html">Bioquímica General</a></li>
 
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#"></a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./html/contacto.html">Contacto</a>
+          <a class="nav-link texto" href="./html/contacto.html">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./html/quienesSomos.html">Sobre Nosotros</a>
+          <a class="nav-link texto" href="./html/quienesSomos.html">Sobre Nosotros</a>
         </li>
       </ul>
       
           <form class="d-flex" style="margin: 0 auto; display: block;">
             <input class="form-control me-2" type="buscar" placeholder="¿Qué buscas?" aria-label="palabra">
-            <button class="btn btn-primary btn-primary-outline-success" type="submit">Buscar</button>
+            <button class="btn btn-primary btn-primary-outline-success texto" type="submit">Buscar</button>
           </form>
       
 <!-------------------------------------------------------------------------------------------------------------------------------------->
@@ -80,24 +86,24 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Inicia sesion o Registrate</h5>
+              <h5 class="modal-title texto" id="exampleModalLabel">Inicia sesion o Registrate</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <form>
                 <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Correo Electónico:</label>
+                  <label for="recipient-name" class="col-form-label texto">Correo Electónico:</label>
                   <input type="text" class="form-control" id="recipient-name">
                 </div>
                 <div class="mb-3">
-                  <label for="recipient-password" class="col-form-label">Contraseña:</label>
+                  <label for="recipient-password" class="col-form-label texto">Contraseña:</label>
                   <input type="text-number" class="form-control" id="recipient-password"></input>
-                 <a href="#" class="text-danger">Haz cliack aquí y Regístrate!</a>
+                 <a href="#" class="text-danger texto">Haz cliack aquí y Regístrate!</a>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Entrar</button>
+              <button type="button" class="btn btn-primary texto">Entrar</button>
             </div>
           </div>
         </div>
@@ -125,7 +131,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 <section class="w-50 mx-auto text-center pt-5 id=intro">
-  <h1 class="p-3 fs-6 border-top border-3 text-primary">SERVICIOS:</h1>
+  <h1 class="p-3 fs-6 border-top border-3 text-primary texto">SERVICIOS:</h1>
 </section>
 
 <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -134,19 +140,19 @@
       <div class="row">
         <div class="col">
           <img src="./images/serviciosIndex/deteccionDeDrogas.jpg" class="d-block w-100" alt="deteccionDeDrogas">
-          <div class="bg-secondary py-4 text-white text-center">Detección de drogas</div>
+          <div class="bg-dark py-4 text-white text-center texto">DROGAS</div>
         </div>
         <div class="col">
           <img src="./images/serviciosIndex/agroquimicos.png" class="d-block w-100" alt="agroquimicos">
-          <div class="bg-secondary py-4 text-white text-center">Agroquímicos</div>
+          <div class="bg-dark py-4 text-white text-center texto">AGRO</div>
         </div>
         <div class="col">
           <img src="./images/serviciosIndex/farma.jpg" class="d-block w-100" alt="farma">
-          <div class="bg-secondary py-4 text-white text-center">Farma</div>
+          <div class="bg-dark py-4 text-white text-center texto">FARMA</div>
         </div>
         <div class="col">
           <img src="./images/serviciosIndex/Salud ocupacional.jpg" class="d-block w-100" alt="saludOcupacional">
-          <div class="bg-secondary py-4 text-white text-center">Salud Ocupacional</div>
+          <div class="bg-dark py-4 text-white text-center texto">SO</div>
         </div>
         
       </div>
@@ -155,19 +161,19 @@
       <div class="row">
         <div class="col">
           <img src="./images/serviciosIndex/sst.png" class="d-block w-100" alt="SST">
-          <div class="bg-secondary py-4 text-white text-center">SST</div>
+          <div class="bg-dark py-4 text-white text-center texto">SST</div>
         </div>
         <div class="col">
           <img src="./images/serviciosIndex/covid-19.png" class="d-block w-100" alt="covid-19">
-          <div class="bg-secondary py-4 text-white text-center">Covid-19</div>
+          <div class="bg-dark py-4 text-white text-center texto">COVID-19</div>
         </div>
         <div class="col">
-          <img src="./images/serviciosIndex/bioquimica de metabolopatias.jpg" class="d-block w-100" style="height: auto;" alt="bioquimicaDeMetabolopatias">
-          <div class="bg-secondary py-4 text-white text-center">Bioquímica de metabolopatías</div>
+          <img src="./images/serviciosIndex/bioquimica de metabolopatias.jpg" class="d-block w-100" alt="bioquimicaDeMetabolopatias">
+          <div class="bg-dark py-4 text-white text-center texto">METABOLISMO</div>
         </div>
         <div class="col">
           <img src="./images/serviciosIndex/bioquimica general.jpg" class="d-block w-100" alt="bioquimicaGeneral">
-          <div class="bg-secondary py-4 text-white text-center">Bioquímica general</div>
+          <div class="bg-dark py-4 text-white text-center texto">BIOQUIMICA</div>
         </div>
         
       </div>
@@ -183,31 +189,31 @@
   </a>
 </div>
   <section class="w-50 mx-auto text-center pt-5 id=intro">
-    <p class="p-3 fs-4"><span> Más información en Servicios..</p></span>
-    <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary" onclick="window.location.href='./html/servicios.html'">Servicios</button>
+    <p class="p-3 fs-4 texto"><span> Más información en Servicios..</p></span>
+    <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary texto" onclick="window.location.href='./html/servicios.html'">Servicios</button>
   </section>
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Intro-->
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <section class="w-50 mx-auto text-center pt-5 id=intro">
-      <h1 class="p-3 fs-2 border-top border-3 text-primary">Laboratorio Cobiatsi</h1>
-      <p class="p-3 fs-4"><span> Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.</p></span>
-      <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary" onclick="window.location.href='#'">Solicitar Presupuesto</button>
+      <h1 class="p-3 fs-2 border-top border-3 text-primary texto">Laboratorio Cobiatsi</h1>
+      <p class="p-3 fs-4 texto"><span> Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.</p></span>
+      <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary texto" onclick="window.location.href='#'">Solicitar Presupuesto</button>
 </section>
 
   <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
   <!--Clientes-->
   <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
   <section class="container-fluid">
-      <h1 class="p-3 fs-2 border-top border-3 text-primary w-50 mx-auto text-center pt-5 id=intro">CLIENTES:</h1>
+      <h1 class="p-3 fs-2 border-top border-3 text-primary w-50 mx-auto text-center pt-5 id=intro texto">CLIENTES:</h1>
 
     <div class="row w-75 mx-auto my-5 servicio-fila">
       <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
         <img src="./images/Clientes/logo-fertilab.jpg" alt="laboratorioFertilab" width="180" height="160">
       <div>
-        <a href="https://fertilab.com.uy/" class="fs-5 mt-4 px-4 pb-1">Laboratorio Fertilab</a>
-        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+        <a href="https://fertilab.com.uy/" class="fs-5 mt-4 px-4 pb-1 texto">Laboratorio Fertilab</a>
+        <p class="px-4 texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
 
       </div>
       </div>
@@ -215,24 +221,24 @@
       <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
         <img src="./images/Clientes/clinica-repromedic-lima.jpg" alt="laboratorioFertilab" width="180" height="160">
       <div>
-        <a href="https://www.laboratoriorepromedic.com/" class="fs-5 mt-4 px-4 pb-1">Clínica Repromedic</a>
-        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+        <a href="https://www.laboratoriorepromedic.com/" class="fs-5 mt-4 px-4 pb-1 texto">Clínica Repromedic</a>
+        <p class="px-4 texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
       </div>
       </div>
 
       <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
         <img src="./images/Clientes/CLINICA-DENTAL-ORELLANA.jpg" alt="laboratorioFertilab" width="180" height="160">
       <div>
-        <a href="https://www.retabloweb.com/?attachment_id=2697" class="fs-5 mt-4 px-4 pb-1">Clinica Dental Orellana</a>
-        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+        <a href="https://www.retabloweb.com/?attachment_id=2697" class="fs-5 mt-4 px-4 pb-1 texto">Clinica Dental Orellana</a>
+        <p class="px-4 texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
       </div>
       </div>
 
       <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
         <img src="./images/Clientes/dental-clinics-miami.png" alt="laboratorioFertilab" width="180" height="160">
       <div>
-        <a href="https://www.rcdentalclinics.com/que-son-las-protesis-dentales/" class="fs-5 mt-4 px-4 pb-1">Dental Clinic</a>
-        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
+        <a href="https://www.rcdentalclinics.com/que-son-las-protesis-dentales/" class="fs-5 mt-4 px-4 pb-1 texto">Dental Clinic</a>
+        <p class="px-4 texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In nesciunt nobis maxime! Quae, asperiores accusantium!</p>
       </div>
       </div>
 
@@ -246,7 +252,7 @@
     
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
    
-    <div class="me-5 d-none d-lg-block">
+    <div class="me-5 d-none d-lg-block texto">
       <span>Contáctenos:</span>
     </div>
     
@@ -262,35 +268,35 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-vial"></i></i>Laboratorio Cobiatsi
+            <i class="fas fa-vial texto"></i></i>Laboratorio Cobiatsi
           </h6>
-          <p>
+          <p class="texto">
             Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.
           </p>
         </div>
 
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           
-          <h6 class="text-uppercase fw-bold mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 texto">
             Redes Sociales:
           </h6>
           <p>
-            <a href="#" class="text-reset">Twitter</a>
+            <a href="#" class="text-reset texto">Twitter</a>
           </p>
           <p>
-            <a href="#" class="text-reset">Facebook</a>
+            <a href="#" class="text-reset texto">Facebook</a>
           </p>
           <p>
-            <a href="#" class="text-reset">Instagram</a>
+            <a href="#" class="text-reset texto">Instagram</a>
           </p>
           <p>
-            <a href="#" class="text-reset">Linkedin</a>
+            <a href="#" class="text-reset texto">Linkedin</a>
           </p>
         </div>
         
 
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 texto">
             Encuéntranos en:
           </h6>
 
@@ -301,13 +307,13 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           
           
-          <p><i class="fas fa-home me-3"></i> Rbla. Pdte. Wilson, 11200 Montevideo,Uruguay</p>
+          <p><i class="fas fa-home me-3 texto"></i> Rbla. Pdte. Wilson, 11200 Montevideo,Uruguay</p>
           <p>
-            <i class="fas fa-envelope me-3"></i>
+            <i class="fas fa-envelope me-3 texto"></i>
             info@cobiatsi.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> +55 66 77 88 99</p>
+          <p><i class="fas fa-phone me-3 texto"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3 texto"></i> +55 66 77 88 99</p>
         </div>
        
       </div>
@@ -319,7 +325,7 @@
   
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2021
-    <a class="text-reset fw-bold" href="#">LaboratorioCobiatsi.com</a>
+    <a class="text-reset fw-bold texto" href="#">LaboratorioCobiatsi.com</a>
   </div>
 
 </footer>

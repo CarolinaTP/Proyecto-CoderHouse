@@ -11,6 +11,13 @@ body {
   font-family: "Montserrat";
   overflow-x: hidden;
 }
+
+.ellipsis{
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow:hidden
+}
+
 #menu li > a {
   font-size: 18px;
   font-weight: bold;
