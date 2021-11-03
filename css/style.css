@@ -6,15 +6,15 @@
   font-family: "Libre Franklin", sans-serif;
 }
 
-body {
-  font-family: "Montserrat";
+.texto {
+  font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
-.ellipsis{
-text-overflow: ellipsis;
-white-space: nowrap;
-overflow:hidden
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #menu li > a {
@@ -30,7 +30,7 @@ overflow:hidden
   max-height: 39rem;
 }
 
-/*_________________________Media queries pantalla sm_______________________*/
+/*_________________________Media queries pantalla md_______________________*/
 
 @media (max-whidth: 768px) {
   #intro {
@@ -42,7 +42,7 @@ overflow:hidden
   }
 }
 
-/*_________________________Media queries pantalla extra-sm_______________________*/
+/*_________________________Media queries pantalla xs_______________________*/
 @media (max-whidth: 576px) {
   .icono-wrap {
     flex-wrap: wrap;
@@ -59,21 +59,6 @@ overflow:hidden
   margin: 2rem;
 }
 
-.servicios {
-  background-color: white;
-  color: black;
-  text-align: center;
-  justify-content: space-around;
-}
-
-.imageADN {
-  height: 500px;
-  width: 800px;
-}
-.body {
-  background-color: white;
-}
-
 ul {
   width: 800px;
   padding: 15px;
@@ -86,9 +71,6 @@ ul {
   align-items: center;
 }
 
-li {
-  float: center;
-}
 li a {
   color: black;
 }
@@ -104,35 +86,7 @@ form button {
   align-items: center;
 }
 
-.div1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 15px;
-}
-.div2 {
-  width: 225px;
-  padding: 2px;
-  border: 0px;
-  margin: 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.carousel-inner {
-  text-align: center;
-}
-
-.item {
-  text-align: center;
-}
-/* Video  */
-.video-container {
-  width: 100%;
-}
-
+/* Video */
 .video-container video {
   width: 100%;
 
@@ -151,12 +105,6 @@ form button {
 
 /* Importación de fuentes de google fonts */
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-
-body {
-  height: 100%;
-  font-family: "Noto Sans", sans-serif;
-  background-color: rgb(23, 136, 180);
-}
 
 .contact_form {
   width: 460px;
@@ -216,51 +164,20 @@ button {
   cursor: pointer;
 }
 
-button p {
-  color: #fff;
-}
-
 span {
   color: rgb(23, 136, 180);
 }
 
-.aviso {
-  font-size: 13px;
-  color: #0e0e0e;
-}
-
-h1 {
-  font-size: 39px;
-  text-align: letf;
-  padding-bottom: 20px;
-  color: rgb(23, 136, 180);
-}
-
-h3 {
-  font-size: 16px;
-  padding-bottom: 30px;
-  color: #0e0e0e;
-}
-
-p {
-  font-size: 14px;
-  color: #0e0e0e;
-}
-
 ::-webkit-input-placeholder {
-  color: #a8a8a8;
-}
-
-::-webkit-textarea-placeholder {
-  color: #a8a8a8;
+  color: rgb(153, 147, 147);
 }
 
 .formulario input:focus {
   outline: 0;
-  border: 1px solid #97d848;
+  border: 1px solid #48aad8;
 }
 
 .formulario textarea:focus {
   outline: 0;
-  border: 1px solid #97d848;
+  border: 1px solid #48aad8;
 }
