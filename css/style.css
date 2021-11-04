@@ -104,7 +104,10 @@ form button {
 }
 
 /* Importación de fuentes de google fonts */
+
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+/*Formulario de contacto en html y css*/
 
 .contact_form {
   width: 460px;
@@ -113,9 +116,21 @@ form button {
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #fbfbfb;
   padding-left: 30px;
 }
+
+.formulario-contacto{
+  width: 100%;
+  height:auto;
+  margin:80px auto;
+  background-image: url(../images/Fondo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
 
 input {
   background-color: #fbfbfb;
@@ -124,7 +139,7 @@ input {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(23, 136, 180);
+  border-color: rgb(23, 91, 180);
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
@@ -155,8 +170,9 @@ button {
   padding-right: 5px;
   margin-bottom: 20px;
   margin-top: 10px;
+  color:white;
   text-transform: uppercase;
-  background-color: rgb(23, 136, 180);
+  background-color: rgb(23, 91, 180);
   border-color: rgb(23, 136, 180);
   border-style: solid;
   border-radius: 10px;
@@ -169,15 +185,16 @@ span {
 }
 
 ::-webkit-input-placeholder {
-  color: rgb(153, 147, 147);
+  color: rgb(76, 129, 138);
 }
 
 .formulario input:focus {
   outline: 0;
-  border: 1px solid #48aad8;
+  border: 1px solid #b0e281;
 }
 
 .formulario textarea:focus {
   outline: 0;
-  border: 1px solid #48aad8;
+  border: 1px solid #b0e281;
 }
+/*---------------------------------------------*/
