@@ -119,10 +119,10 @@ form button {
   padding-left: 30px;
 }
 
-.formulario-contacto{
+.formulario-contacto {
   width: 100%;
-  height:auto;
-  margin:80px auto;
+  height: auto;
+  margin: 80px auto;
   background-image: url(../images/Fondo1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,7 +130,6 @@ form button {
   border-radius: 10px;
   opacity: 0.9;
 }
-
 
 input {
   background-color: #fbfbfb;
@@ -170,10 +169,10 @@ button {
   padding-right: 5px;
   margin-bottom: 20px;
   margin-top: 10px;
-  color:white;
+  color: #161231;
   text-transform: uppercase;
-  background-color: rgb(23, 91, 180);
-  border-color: rgb(23, 136, 180);
+  background-color: 161231;
+  border-color: 161231;
   border-style: solid;
   border-radius: 10px;
   width: 420px;
@@ -197,4 +196,26 @@ span {
   outline: 0;
   border: 1px solid #b0e281;
 }
-/*---------------------------------------------*/
+.obligatorio {
+  color: rgb(0, 0, 0);
+}
+
+/*-----general body---*/
+.body {
+  padding: 0;
+  margin: 0;
+  background: radial-gradient(circle at top left, #180c69, #180c69);
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 4rem;
+}
+.title {
+  color: #161231;
+  font: size 5rem;
+  font-familiy: "Open Sans", "Helvetica Neue", sans-serif;
+  /*fbxdnfgngf*/
+}
+.texto {
+  font-family: Verdana;
+  color: whitesmoke;
+}
