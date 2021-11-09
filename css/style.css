@@ -89,17 +89,15 @@ form button {
 /* Video */
 .video-container video {
   width: 100%;
-
   object-fit: cover;
   z-index: 0;
 }
 
-/* Just styling the content of the div, the *magic* in the previous rules */
+
 .video-container .caption {
   z-index: 1;
   position: relative;
   text-align: center;
-  color: #dc0000;
   padding: 10px;
 }
 
@@ -216,8 +214,18 @@ span {
 }
 .texto {
   font-family: Verdana;
-  color: whitesmoke;
+  color: white;
+  text-align:center;
 }
-.img.izquierda-quienes-somos{
+img.izquierda-quienes-somos{
   float: left;
+  justify-content: space-around;
+  margin: 10px 20px ; 
+}
+
+img.derecha-quienes-somos{
+  float: right;
+  justify-content: space-around;
+  margin: 10px 20px ; 
+  
 }
