@@ -217,13 +217,13 @@ span {
   color: white;
   text-align:center;
 }
-img.izquierda-quienes-somos{
+video.izquierda-quienes-somos{
   float: left;
   justify-content: space-around;
-  margin: 10px 20px ; 
+  margin: 10px 20px;
 }
 
-img.derecha-quienes-somos{
+.derecha-quienes-somos{
   float: right;
   justify-content: space-around;
   margin: 10px 20px ; 
