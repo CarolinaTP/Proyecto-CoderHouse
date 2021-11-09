@@ -14,7 +14,6 @@
 .ellipsis {
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 #menu li > a {
@@ -218,6 +217,6 @@ span {
   font-family: Verdana;
   color: whitesmoke;
 }
-.img.izquierda-quienes-somos{
+.img.izquierda-quienes-somos {
   float: left;
 }

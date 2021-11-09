@@ -1,6 +1,6 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;1,600&display=swap");
-$main_font: Arial, Helvetica, sans-serif;
+$main_font: "Libre Franklin", sans-serif;
 $fontsize: 18px;
 /* Primary colors */
 $primary_1: #180c69;
@@ -10,18 +10,18 @@ $bgcolor: $primary_1;
 $textcolor: black;
 /* Mixin variables */
 @mixin container {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    padding: 10%;
+  height: 100vh;
+  width: 100%;
+  padding: 10%;
 }
-
 body {
   background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
 }
-.container{
-    @include container;
+.container {
+  @include container;
+}
+.blue {
+  background-color: $bgcolor;
 }
