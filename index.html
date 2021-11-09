@@ -12,6 +12,7 @@
 <!------------------------------------------------------------------------------------------------------------------------------------>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.scss">
     <title class="texto">Laboratorio Cobiartsi</title>
   </head>
 
@@ -84,7 +85,15 @@
 <!-------------------------------------------------------------------------------------------------------------------------------------->
 <!--Boton comencemos!-->    
 <!-------------------------------------------------------------------------------------------------------------------------------->
-      <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Comencemos!</button>
+      <button 
+        style="margin: 0 auto;" 
+        type="button" 
+        class="btn btn-primary" 
+        data-bs-toggle="modal" 
+        data-bs-target="#exampleModal" 
+        data-bs-whatever="@mdo"
+      >Comencemos!
+      </button>
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -198,7 +207,7 @@
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
 <!--Intro-->
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<section class="w-50 mx-auto text-center pt-5 id=intro">
+<section class="container w-50 mx-auto text-center pt-5 id=intro">
       <h1 class="p-3 fs-2 border-top border-3 text-primary texto">Laboratorio Cobiatsi</h1>
       <p class="p-3 fs-4 texto"><span> Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.</p></span>
       <button style="margin: 0 auto; display: block;" type="button" class="btn btn-primary texto" onclick="window.location.href='#'">Solicitar Presupuesto</button>

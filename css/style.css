@@ -123,7 +123,7 @@ form button {
   width: 100%;
   height: auto;
   margin: 80px auto;
-  background-image: url(../images/Fondo1.png);
+  background-image: url(../images/Fondo-formulario.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -213,9 +213,11 @@ span {
   color: #161231;
   font: size 5rem;
   font-familiy: "Open Sans", "Helvetica Neue", sans-serif;
-  /*fbxdnfgngf*/
 }
 .texto {
   font-family: Verdana;
   color: whitesmoke;
+}
+.img.izquierda-quienes-somos{
+  float: left;
 }
