@@ -9,14 +9,9 @@ $primary_2: rgb(23, 136, 180);
 $bgcolor: $primary_1;
 $textcolor: black;
 $text-color: white;
-$img-contacto:url("../images/Fondo-formulario.png");
+$img-contacto: url("../images/Fondo-formulario.png");
 /* Mixin variables */
-@mixin container {
-  height: 100vh;
-  width: 100%;
-  padding: 10%;
-}
-@mixin button{
+@mixin button {
   background-color: $primary_1;
   color: $text-color;
   border: none;
@@ -28,47 +23,51 @@ $img-contacto:url("../images/Fondo-formulario.png");
     background-color: $primary_2;
   }
 }
-@mixin video{
+@mixin video {
   width: 100%;
   object-fit: cover;
   z-index: 0;
 }
 
-@mixin background-img{
+@mixin background-img {
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
 }
 
 body {
   background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
+  overflow-x: hidden;
 }
-.container {
-  @include container;
-}
-.backround-contacto{
+.section-presupuesto {
   background-image: $img-contacto;
-  @include background-img;
-}
 
+  @include background-img;
+  height: 100vh;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 1px black;
+  }
+}
 .blue {
   background-color: $bgcolor;
 }
-.buttonprint{
+.buttonprint {
   @include button;
 }
-.video{
+.video {
   @include video;
 }
 
-
-.video-container .caption {
+.video-container {
+  width: 100%;
   z-index: 1;
   position: relative;
   text-align: center;
-  padding: 10px;
+  video {
+    @include video;
+  }
 }

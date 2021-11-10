@@ -1,219 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
-    <link rel="stylesheet" href="../css/stylescss.css">
+  <title>Laboratorio Cobiatsi</title>
+  <!----------------------------------------------------------------------------------------------------------------------------------->
+  <!-- Required meta tags -->
+  <!---------------------------------------------------------------------------------------------------------------------------------->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!------------------------------------------------------------------------------------------------------------------------------------>
+  <!-- Bootstrap CSS -->
+  <!------------------------------------------------------------------------------------------------------------------------------------>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/stylescss.css">
 </head>
-<body class="body"> 
-<!------------------------------------------------------------------------------------------------------------------------------------->
-<!--Barra de navegacion-->
-<!------------------------------------------------------------------------------------------------------------------------------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Cobiatsi</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="../index2.html"><span class="sr-only">Inicio</span></a>
-      </li>
-      <li class="nav-item">
+<body>
+  <!------------------------------------------------------------------------------------------------------------------------------------->
+  <!--Barra de navegacion-->
+  <!------------------------------------------------------------------------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Cobiatsi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index2.html"><span class="sr-only">Inicio</span></a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="../html/servicios.html">Servicios</a>
-      </li>
-      <li class="nav-item">
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="../html/contacto.html">Contacto</a>
-      </li>
-      <li class="nav-item">
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="../html/quienesSomos.html">Sobre Nosotros</a>
-      </li>
-    </ul>
-
-<!-------------------------------------------------------------------------------------------------------------------------------------->
-<!--Boton comencemos en nav-->    
-<!-------------------------------------------------------------------------------------------------------------------------------->
-<button 
-style="margin: 0 auto;" 
-type="button" 
-class="btn buttonprint" 
-data-bs-toggle="modal" 
-data-bs-target="#exampleModal" 
-data-bs-whatever="@mdo"
->Comencemos!
-</button>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-  <div class="modal-header">
-    <h5 class="modal-title" id="exampleModalLabel">Inicia sesion o Registrate</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-  </div>
-  <div class="modal-body">
-    <form>
-      <div class="mb-3">
-        <label for="recipient-name" class="col-form-label">Correo Electónico:</label>
-        <input type="text" class="form-control" id="recipient-name">
+        </li>
+      </ul>
+      <button style="margin: 0 auto;" type="button" class="btn buttonprint" data-bs-toggle="modal"
+        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Comencemos!
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Inicia sesion o Registrate</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Correo Electónico:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-password" class="col-form-label">Contraseña:</label>
+                  <input type="text-number" class="form-control" id="recipient-password"></input>
+                  <a href="#" class="text-danger">Haz cliack aquí y Regístrate!</a>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="buttonprint">Entrar</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="recipient-password" class="col-form-label">Contraseña:</label>
-        <input type="text-number" class="form-control" id="recipient-password"></input>
-       <a href="#" class="text-danger">Haz cliack aquí y Regístrate!</a>
-      </div>
-    </form>
-  </div>
-  <div class="modal-footer">
-    <button type="button"class="buttonprint">Entrar</button>
-  </div>
-</nav>
-
-
-  <!---------Formulario de contacto en html y css ------------------------------------------------------------------------------------>  
+    </div>
+  </nav>
+  <!---------Formulario de contacto en html y css ------------------------------------------------------------------------------------>
   <div class="video-container">
     <video autoplay muted loop class="video">
-        <source src="../images/Contactenos-video.mp4" type="video/mp4" />
+      <source src="../images/Contactenos-video.mp4" type="video/mp4" />
     </video>
   </div>
   <section class="formulario-contacto">
-   <div class="contact_form">
-    <div class="formulario">      
+    <div class="contact_form">
+      <div class="formulario">
         <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
-          <form action="submeter-formulario.php" method="post">       
-                <p>
-                  <label for="nombre" class="colocar_nombre">Nombre
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                </p>
-              
-                <p>
-                  <label for="email" class="colocar_email">Email
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                </p>
-            
-                <p>
-                  <label for="telefone" class="colocar_telefono">Teléfono
-                  </label>
-                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                </p>      
-              
-                <p>
-                  <label for="asunto" class="colocar_asunto">Asunto
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                </p>    
-              
-                <p>
-                  <label for="mensaje" class="colocar_mensaje">Mensaje
-                    <span class="obligatorio">*</span>
-                  </label>                     
-                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                </p>                    
-              
-                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
-                <p class="aviso">
-                  <span class="obligatorio">*</span>los campos son obligatorios.
-                </p>          
-            
-          </form>
-    </div>  
-  </div>
-</section>
-
-<!-------------------------------------------------------------------------------------------------------------------------------------->
-<!--Footer-->
-<!---------------------------------------------------------------------------------------------------------------------------------->
-
-<footer class="text-center text-lg-start bg-light text-muted">
-    
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-   
-    <div class="me-5 d-none d-lg-block texto">
-      <span>Contáctenos:</span>
-    </div>
-    
-  </section>
-
-  <section>
-    <div class="container text-center text-md-start mt-5">
-      
-      <div class="row mt-3">
-        
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-vial texto"></i></i>Laboratorio Cobiatsi
-          </h6>
-          <p class="texto">
-            Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.
-          </p>
-        </div>
-
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          
-          <h6 class="text-uppercase fw-bold mb-4 texto">
-            Redes Sociales:
-          </h6>
+        <form action="submeter-formulario.php" method="post">
           <p>
-            <a href="#" class="text-reset texto">Twitter</a>
+            <label for="nombre" class="colocar_nombre">Nombre
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+              placeholder="Escribe tu nombre">
           </p>
-          <p>
-            <a href="#" class="text-reset texto">Facebook</a>
-          </p>
-          <p>
-            <a href="#" class="text-reset texto">Instagram</a>
-          </p>
-          <p>
-            <a href="#" class="text-reset texto">Linkedin</a>
-          </p>
-        </div>
-        
 
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4 texto">
-            Encuéntranos en:
-          </h6>
-
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3230.0703250462257!2d-56.17003095435261!3d-34.92204189588202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1635284753568!5m2!1ses!2suy" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          
-          
-          <p><i class="fas fa-home me-3 texto"></i> Rbla. Pdte. Wilson, 11200 Montevideo,Uruguay</p>
           <p>
-            <i class="fas fa-envelope me-3 texto"></i>
-            info@cobiatsi.com
+            <label for="email" class="colocar_email">Email
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="email" name="introducir_email" id="email" required="obligatorio"
+              placeholder="Escribe tu Email">
           </p>
-          <p><i class="fas fa-phone me-3 texto"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3 texto"></i> +55 66 77 88 99</p>
-        </div>
-       
+
+          <p>
+            <label for="telefone" class="colocar_telefono">Teléfono
+            </label>
+            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+          </p>
+
+          <p>
+            <label for="asunto" class="colocar_asunto">Asunto
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+              placeholder="Escribe un asunto">
+          </p>
+
+          <p>
+            <label for="mensaje" class="colocar_mensaje">Mensaje
+              <span class="obligatorio">*</span>
+            </label>
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+              placeholder="Deja aquí tu comentario..."></textarea>
+          </p>
+
+          <button type="submit" name="enviar_formulario" id="enviar">
+            <p>Enviar</p>
+          </button>
+
+          <p class="aviso">
+            <span class="obligatorio">*</span>los campos son obligatorios.
+          </p>
+
+        </form>
       </div>
-     
     </div>
   </section>
- 
 
-  
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021
-    <a class="text-reset fw-bold texto" href="#">LaboratorioCobiatsi.com</a>
-  </div>
+  <!-------------------------------------------------------------------------------------------------------------------------------------->
+  <!--Footer-->
+  <!---------------------------------------------------------------------------------------------------------------------------------->
 
-</footer>
+  <footer class="text-center text-lg-start bg-light text-muted">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-    
-</body >
+      <div class="me-5 d-none d-lg-block texto">
+        <span>Contáctenos:</span>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="container text-center text-md-start mt-5">
+
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-vial texto"></i></i>Laboratorio Cobiatsi
+            </h6>
+            <p class="texto">
+              Somos pioneros y únicos en brindar un servicio integral en cada una de nuestras áreas.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4 texto">
+              Redes Sociales:
+            </h6>
+            <p>
+              <a href="#" class="text-reset texto">Twitter</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset texto">Facebook</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset texto">Instagram</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset texto">Linkedin</a>
+            </p>
+          </div>
+
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 texto">
+              Encuéntranos en:
+            </h6>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3230.0703250462257!2d-56.17003095435261!3d-34.92204189588202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2suy!4v1635284753568!5m2!1ses!2suy"
+              width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+
+            <p><i class="fas fa-home me-3 texto"></i> Rbla. Pdte. Wilson, 11200 Montevideo,Uruguay</p>
+            <p>
+              <i class="fas fa-envelope me-3 texto"></i>
+              info@cobiatsi.com
+            </p>
+            <p><i class="fas fa-phone me-3 texto"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 texto"></i> +55 66 77 88 99</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021
+      <a class="text-reset fw-bold texto" href="#">LaboratorioCobiatsi.com</a>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
 </html>

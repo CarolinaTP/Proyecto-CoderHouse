@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "scss": "node-sass --include-path scss css/style.scss css/stylescss.css",
-    "watch-scss":"node-sass  "
+    "scssWatch": "node-sass --include-path scss css/style.scss css/stylescss.css --watch --output-style compressed"
   },
   "repository": {
     "type": "git",
