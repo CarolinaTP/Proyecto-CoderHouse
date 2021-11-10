@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "scss": "node-sass --include-path scss css/style.scss css/stylescss.css"
+    "scss": "node-sass --include-path scss css/style.scss css/stylescss.css",
+    "watch-scss":"node-sass  "
   },
   "repository": {
     "type": "git",
