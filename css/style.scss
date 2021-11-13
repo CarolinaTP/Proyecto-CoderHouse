@@ -3,7 +3,7 @@
 $main_font: "Libre Franklin", sans-serif;
 $fontsize: 18px;
 /* Primary colors */
-$primary_1: rgb(14, 14, 151);
+$primary_1: #006699;
 $primary_2: rgb(23, 136, 180);
 /* Standard variables */
 $bgcolor: $primary_1;
@@ -26,8 +26,6 @@ $img-contacto: url("../images/html-contacto/Fondo-formulario.png");
   }
 }
 @mixin video {
-  width: 100%;
-  object-fit: cover;
   z-index: 0;
 }
 
@@ -77,7 +75,6 @@ body {
 .video-container {
   width: 100%;
   z-index: 1;
-  position: relative;
   text-align: center;
   video {
     @include video;
