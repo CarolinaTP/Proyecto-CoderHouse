@@ -20,21 +20,19 @@
   <!------------------------------------------------------------------------------------------------------------------------------------->
   <!--Barra de navegacion-->
   <!------------------------------------------------------------------------------------------------------------------------------------->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Imagen y texto de navegación -->
-  <a class="navbar-brand" href="#">
-    <img src="../images/logo-cobiatsi.png" width="30" height="30" class="d-inline-block align-top" alt="logo-cobiatsi"> 
-    Cobiatsi
-  </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="../images/logo-cobiatsi.png" width="30" height="30" class="d-inline-block align-top" alt="logo-cobiatsi"> 
+      Cobiatsi
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../index.html"><span class="sr-only">Inicio</span></a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./servicios.html">Servicios</a>
@@ -46,7 +44,8 @@
           <a class="nav-link" href="./quienesSomos.html">Sobre Nosotros</a>
         </li>
       </ul>
-      <!-------------------------------------------------------------------------------------------------------------------------------------->
+
+       <!-------------------------------------------------------------------------------------------------------------------------------------->
       <!--Boton comencemos en nav-->
       <!-------------------------------------------------------------------------------------------------------------------------------->
       <button style="margin: 0 auto;" type="button" class="btn buttonprint" data-bs-toggle="modal"
@@ -79,11 +78,12 @@
         </div>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
   <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
   <!--- Video publicidad-->
   <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
-  <div class="video-container">
+  <div class="video-container ratio ratio-21x9">
     <video autoplay muted loop width="100%">
       <source src="../images/html-contacto/Contactenos-video.mp4" type="video/mp4" />
     </video>
@@ -95,8 +95,8 @@
   <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
   <!--Formulario contacto-->
   <!------------------------------------------------------------------------------------------------------------------------------------------------------------>
-  <section class="d-flex justify-content-center formulario">
-    <form class="row card g-3 title fs-2">
+ <section class="d-flex justify-content-center formulario">
+    <form class="row card  title fs-2">
         <h1>Contáctenos!</h1>
         <div class="col fs-5">
         <label for="inputnombre" class="form-label">Nombre Completo*</label>
@@ -133,12 +133,12 @@
         <input type="text" class="form-control large-input" id="inputcomentario" placeholder="Motivo del contacto">
         </div>
 
-        <div class="col buttonprint">
-        <button type="enviar" style="margin: 0 auto; display: block;" class="btn buttonprint">Enviar Formulario</button>
+        <div class="col">
+          <br>
+          <button type="enviar" style="margin: 0 auto; display: block;" class="btn buttonprint">Enviar Formulario</button>
         </div>
     </form>
 </section>
-  
   <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
   <!-------------------------------------------------------------------------------------------------------------------------------------->
   <!--Footer-->

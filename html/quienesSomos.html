@@ -21,21 +21,22 @@
   <!------------------------------------------------------------------------------------------------------------------------------------->
   <!--Barra de navegacion-->
   <!------------------------------------------------------------------------------------------------------------------------------------->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Imagen y texto de navegación -->
-  <a class="navbar-brand" href="#">
-    <img src="../images/logo-cobiatsi.png" width="30" height="30" class="d-inline-block align-top" alt="logo-cobiatsi"> 
-    Cobiatsi
-  </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <!------------------------------------------------------------------------------------------------------------------------------------->
+  <!--Barra de navegacion-->
+  <!------------------------------------------------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="../images/logo-cobiatsi.png" width="30" height="30" class="d-inline-block align-top" alt="logo-cobiatsi"> 
+      Cobiatsi
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../index.html"><span class="sr-only">Inicio</span></a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./servicios.html">Servicios</a>
@@ -47,7 +48,8 @@
           <a class="nav-link" href="./quienesSomos.html">Sobre Nosotros</a>
         </li>
       </ul>
-      <!-------------------------------------------------------------------------------------------------------------------------------------->
+
+       <!-------------------------------------------------------------------------------------------------------------------------------------->
       <!--Boton comencemos en nav-->
       <!-------------------------------------------------------------------------------------------------------------------------------->
       <button style="margin: 0 auto;" type="button" class="btn buttonprint" data-bs-toggle="modal"
@@ -80,11 +82,12 @@
         </div>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
   <!----------------------------------------------------------------------------------------------------------------------------------------->
   <!----------------Video---------------------->
   <!---------------------------------------------------------------------------------------------------------------------------------------------->
-  <div class="video-container">
+  <div class="video-container ratio ratio-21x9">
     <video autoplay muted loop width="100%">
       <source src="../images/html-sobre-nosotros/sobre nosotros video.mp4" type="video/mp4" />
     </video>
@@ -118,19 +121,19 @@
   <!----------------------------------------------------------------------------------------------------------------------------------------->
   <!----------------conocenos---------------------->
   <!---------------------------------------------------------------------------------------------------------------------------------------------->
-  <section class="w-50 mx-auto text-center pt-5 id=intro">
+  <section class="w-50 mx-auto text-center  pt-5 id=intro img-fluid">
     <h1 class="p-3 fs-2 border-top border-3 title">Conócenos!</h1>
   </section>
   
   <div class="card mb-3" >
     <div class="row g-0">
       <div class="col-md-2">
-        <img src="../images/html-sobre-nosotros/mision-empresa.png" class="img-fluid rounded-start" alt="mision-como-empresa">
+        <img src="../images/html-sobre-nosotros/mision-empresa.png" class="img-fluid rounded-start rounded mx-auto d-block" alt="mision-como-empresa" width="180" height="160">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title title">Misión como empresa:</h5>
-          <p class="card-text fs-5">Ofrecemos un servicio de Laboratorio Clínico ético y de respeto por la dignidad humana, basándonos en el compromiso y trabajo en equipo, llegando más allá de las expectativas de nuestros clientes.</p>
+          <h5 class="card-title title card-text fs-2 d-flex justify-content-center text-center">Misión como empresa:</h5>
+          <p class="card-text fs-5 text d-flex justify-content-center text-center">Ofrecemos un servicio de Laboratorio Clínico ético y de respeto por la dignidad humana, basándonos en el compromiso y trabajo en equipo, llegando más allá de las expectativas de nuestros clientes.</p>
         </div>
       </div>
     </div>
@@ -139,12 +142,12 @@
   <div class="card mb-3" >
     <div class="row g-0">
       <div class="col-md-2">
-        <img src="../images/html-sobre-nosotros/vision-empresa.png" class="img-fluid rounded-start" alt="vision-como-empresa">
+        <img src="../images/html-sobre-nosotros/vision-empresa.png" class="img-fluid rounded-start rounded mx-auto d-block" alt="vision-como-empresa" width="180" height="160">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title title">Visión como empresa:</h5>
-          <p class="card-text fs-5">Apostamos a una innovación tecnológica constante; manteniendo los más altos estándares de calidad internacional, teniendo especial foco de interés en el personal y los clientes</p>
+          <h5 class="card-title title card-text fs-2 d-flex justify-content-center text-center">Visión como empresa:</h5>
+          <p class="card-text fs-5 text d-flex justify-content-center text-center">Apostamos a una innovación tecnológica constante; manteniendo los más altos estándares de calidad internacional, teniendo especial foco de interés en el personal y los clientes</p>
         </div>
       </div>
     </div>
@@ -153,12 +156,12 @@
   <div class="card mb-3" >
     <div class="row g-0">
       <div class="col-md-2">
-        <img src="../images/html-sobre-nosotros/staff-empresa.png" class="img-fluid rounded-start" alt="nuestro-staff">
+        <img src="../images/html-sobre-nosotros/staff-empresa.png" class="img-fluid rounded-start rounded mx-auto d-block" alt="nuestro-staff" width="180" height="160">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title title">Staff:</h5>
-          <p class="card-text fs-5">Contamos con un staff especializado y eficiente, que se encuentra en continua capacitación, con el fin de adaptarse a los cambios constantes del ámbito científico. <br>
+          <h5 class="card-title title card-text fs-2 d-flex justify-content-center text-center">Staff:</h5>
+          <p class="card-text fs-5 text d-flex justify-content-center text-center">Contamos con un staff especializado y eficiente, que se encuentra en continua capacitación, con el fin de adaptarse a los cambios constantes del ámbito científico. <br>
            <br> Nuestro objetivo es prestar un servicio eficiente y de primer nivel, con gran seriedad en el trato. <br> 
            Junto con el concepto de calidad incorporado desde la formación, garantizamos la confiabilidad de los resultados. <br>
          
